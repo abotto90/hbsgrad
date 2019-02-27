@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<!-- Demonstrates external stylesheets -->
+
+<html lang="en">
+  <link rel="icon" href="https://www.freeiconspng.com/uploads/cap-graduation-icon--0.png">
+    <head>
+        <link href="styles.css" rel="stylesheet">
+        <title>Graduation Calendar</title>
+    </head>
+    <body>
+      <div class="week">
+        <div class="day">
+          <h3 class="day-label"><b>Saturday</b><br>May 25</h3>
+          <h4>
+            <div class="event event-start event-end" 
+                 data-span="2"><b>8:30pm</b> Sushi @ Whaling in Oklahoma</div><br><br><br><br>
+          </h4>   
+        </div>
+        <div class="day">
+          <h3 class="day-label"><b>Sunday</b><br>May 26</h3>
+          <h4>
+            <div class="event event-start event-end" 
+                 data-span="2"><b>10:00am</b> Coffee @ Tattes</div><br>
+            <div class="event event-start event-end" 
+                 data-span="2"><b>11:00am</b> Harvard Campus Tour</div><br>
+            <div class="event event-start event-end" 
+                 data-span="2"><b>5:30pm</b> Pizza @ Brewer's Fork</div>
+          </h4>  
+        </div>
+        <div class="day">
+          <h3 class="day-label"><b>Monday</b><br>May 27</h3>
+          <h4>
+            <div class="event event-start event-end" 
+                 data-span="2"><b>11:00am</b> Museum of Fine Arts</div><br>
+            <div class="event event-start event-end" 
+                 data-span="2"><b>3:00pm</b> Walk around Beacon Hill</div><br><br>
+          </h4>
+        </div>
+        <div class="day">
+          <h3 class="day-label"><b>Tuesday</b><br>May 28</h3>
+          <h4>
+            <div class="event event-start event-end" 
+                 data-span="2"><b>1:30pm</b> Oysters @ Row 34</div><br>
+            <div class="event event-start event-end" 
+                 data-span="2"><b>3:00pm</b> Walk around Seaport</div><br>
+            <div class="event event-start event-end" 
+                 data-span="2"><b>8:00pm</b> Tapas @ Barcelona Wine Bar </div><br>
+            <div class="event event-start event-end" 
+                 data-span="2"><b>10:00pm</b> Drinks @ Liberty Hotel</div><br><br><br><br><br><br>
+          </h4>
+        </div>
+        <div class="day">
+          <h3 class="day-label"><b>Wednesday</b><br>May 29</h3>
+          <h4>
+            <div class="event event-start event-end" 
+                 data-span="2"><b>12:30pm</b> Lunch @ Alden and Harlow</div><br>
+            <div class="event event-start event-end" 
+                 data-span="2"><b>2:30pm</b> Class Day Ceremony</div><br>
+            <div class="event event-start event-end" 
+                 data-span="2"><b>8:00pm</b> Thai @ Tiger Mama</div><br><br><br><br><br><br><br><br>
+
+          </h4>
+        </div>
+        <div class="day">
+          <h3 class="day-label"><b>Thursday</b><br>May 30</h3>
+            <h4>
+              <div class="event event-start event-end" 
+                   data-span="2"><b>6:45am</b> Gates Open - Harvard Square</div><br>  
+              <div class="event event-start event-end" 
+                   data-span="2"><b>9:00am</b> Comm. Speech - Angela Merkel</div><br>
+              <div class="event event-start event-end" 
+                   data-span="2"><b>11:30am</b> MBA Lunch</div><br>
+              <div class="event event-start event-end" 
+                   data-span="2"><b>12:30pm</b> Diploma Ceremony</div><br>
+              <div class="event event-start event-end" 
+                   data-span="2"><b>3:00pm</b> Reception</div><br>
+              <div class="event event-start event-end" 
+                   data-span="2"><b>8:00pm</b> Italian @ Cafe Toscano</div><br>
+              <div class="event event-start event-end" 
+                   data-span="2"><b>10:00pm</b> Drinks @ Fool's Errand</div>
+              
+            </h4>
+        </div>
+        <div class="day">
+          <h3 class="day-label"><b>Friday</b><br>May 31</h3>
+          <h4>
+            <div class="event event-start event-end" 
+                 data-span="2"><b>1:00pm</b> Brunch @ Acquitaine</div><br>
+            <div class="event event-start event-end" 
+                 data-span="2"><b>3:00pm</b> Beer @ Harpoon Brewery</div>
+          </h4>
+        </div>
+       <div class="day">
+          <h3 class="day-label"><b>Saturday</b><br>June 1</h3>
+          <h4>
+            <div class="event event-start event-end" 
+                 data-span="2"><b>7:15am</b> Train to NYC</div><br><br>
+          </h4>
+        </div>
+      <div class="day">
+          <h3 class="day-label"><b>Sunday</b><br>June 2</h3>
+          <h4>
+            <div class="event event-start event-end" 
+                 data-span="2"><b>All Day</b> NYC</div><br><br>
+          </h4>
+        </div>
+      </div>
+   </body>   
+</html>
